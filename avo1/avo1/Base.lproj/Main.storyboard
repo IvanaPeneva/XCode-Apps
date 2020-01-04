@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="avo1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="XKg-Wu-lUf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="nnE-sw-DfW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="hJv-5F-YKW">
+                                <rect key="frame" x="0.0" y="598" width="414" height="298"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart_health" translatesAutoresizingMaskIntoConstraints="NO" id="rRK-zN-6XN">
+                                <rect key="frame" x="347" y="64" width="47" height="41"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avo Toast" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oog-Y4-JQW">
+                                <rect key="frame" x="20" y="64" width="101" height="95.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzm-pn-J74">
+                                <rect key="frame" x="20" y="777.5" width="374" height="64.5"/>
+                                <string key="text">This breakfast is really healthy because the avocado has healthy fats, the bread has fiber and carbohydrates and the egg has proteins.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="-6" height="-1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XKg-Wu-lUf" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="0.10000000000000001" id="1B3-VV-4Jk"/>
+                            <constraint firstItem="hJv-5F-YKW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="0.10000000000000001" id="4UV-gn-v4i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hzm-pn-J74" secondAttribute="bottom" constant="20" id="9e6-Zk-dDv"/>
+                            <constraint firstItem="nnE-sw-DfW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="0.10000000000000001" id="CL4-FT-So9"/>
+                            <constraint firstAttribute="trailing" secondItem="XKg-Wu-lUf" secondAttribute="trailing" constant="0.10000000000000001" id="Fpa-us-ULj"/>
+                            <constraint firstItem="Oog-Y4-JQW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="J6W-i7-KRk"/>
+                            <constraint firstAttribute="trailing" secondItem="nnE-sw-DfW" secondAttribute="trailing" constant="0.10000000000000001" id="WEO-UD-CdI"/>
+                            <constraint firstItem="Oog-Y4-JQW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="YbO-oa-8QE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rRK-zN-6XN" secondAttribute="trailing" constant="20" id="ctl-rV-7us"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hzm-pn-J74" secondAttribute="trailing" constant="20" id="kvp-YM-pRG"/>
+                            <constraint firstAttribute="trailing" secondItem="hJv-5F-YKW" secondAttribute="trailing" constant="0.10000000000000001" id="lBS-0P-49W"/>
+                            <constraint firstAttribute="bottom" secondItem="hJv-5F-YKW" secondAttribute="bottom" constant="0.10000000000000001" id="mNs-qQ-zuu"/>
+                            <constraint firstItem="hzm-pn-J74" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="myW-nC-e4N"/>
+                            <constraint firstAttribute="bottom" secondItem="XKg-Wu-lUf" secondAttribute="bottom" constant="0.10000000000000001" id="oNF-U1-2ku"/>
+                            <constraint firstItem="rRK-zN-6XN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="p1X-aR-hKl"/>
+                            <constraint firstItem="nnE-sw-DfW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="0.10000000000000001" id="ugb-mB-TRA"/>
+                            <constraint firstItem="XKg-Wu-lUf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="0.10000000000000001" id="ytq-FJ-f2U"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BottomGradient" width="414" height="298"/>
+        <image name="Breakfast" width="414" height="896"/>
+        <image name="Heart_health" width="47" height="41"/>
+        <image name="TopGradient" width="414" height="380"/>
+    </resources>
+</document>
