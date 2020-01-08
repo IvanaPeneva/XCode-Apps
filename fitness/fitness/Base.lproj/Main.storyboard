@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="fitness" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="FITNESS IS A SPORT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8KM-K7-Ji5">
+                                <rect key="frame" x="16" y="54" width="382.5" height="48"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Qbj-Ap-dy0">
+                                <rect key="frame" x="0.0" y="112" width="414" height="690"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Barbell" translatesAutoresizingMaskIntoConstraints="NO" id="pM2-WJ-lvu">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="230"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beach" translatesAutoresizingMaskIntoConstraints="NO" id="PkJ-sb-tK7">
+                                        <rect key="frame" x="0.0" y="230" width="414" height="230"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Running" translatesAutoresizingMaskIntoConstraints="NO" id="q15-k9-OC5">
+                                        <rect key="frame" x="0.0" y="460" width="414" height="230"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Qbj-Ap-dy0" secondAttribute="bottom" constant="60" id="1hz-zA-mra"/>
+                            <constraint firstItem="Qbj-Ap-dy0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="0.10000000000000001" id="4B5-OO-Uu5"/>
+                            <constraint firstItem="8KM-K7-Ji5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Ic-pi-gR2"/>
+                            <constraint firstItem="Qbj-Ap-dy0" firstAttribute="top" secondItem="8KM-K7-Ji5" secondAttribute="bottom" constant="10" id="CsU-aR-eWS"/>
+                            <constraint firstAttribute="trailing" secondItem="Qbj-Ap-dy0" secondAttribute="trailing" constant="0.10000000000000001" id="Wmh-su-neO"/>
+                            <constraint firstItem="8KM-K7-Ji5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="fR0-we-Wqo"/>
+                            <constraint firstItem="Qbj-Ap-dy0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pz8-MJ-JOj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Barbell" width="413" height="230"/>
+        <image name="Beach" width="414" height="230"/>
+        <image name="Running" width="414" height="230"/>
+    </resources>
+</document>
