@@ -1,0 +1,34 @@
+import UIKit
+
+var str = "Hello, playground"
+
+// basic function
+func sayHello() -> Void{
+    
+    print("Hello!")
+    
+}
+
+sayHello()
+
+// function with paramethers
+func sayHelloTo(_ name:String, _ age:Int) {
+    print("Hello \(name), who is \(age)!") ///!!!
+}
+sayHelloTo("Iva", 23)
+
+
+func sayMama (name:String, height:Int){
+    print("grüß dich \(name), \(height)")
+    
+}
+sayMama(name: "Rada", height: 156)
+
+//funktion with return value
+func addFourTo(x:Int) -> Int {
+    let sum=x+4
+    return sum
+}
+
+var result = addFourTo(x: 10)
+print(result)
